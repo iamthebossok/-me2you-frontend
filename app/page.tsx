@@ -1,12 +1,20 @@
-export default function Home() {
+export default function Page() {
 
   return (
 
     <main style={{ padding: 40, textAlign: "center" }}>
 
-      <h1>TheScripto 🚀</h1>
+      <h1 style={{ fontSize: 32, fontWeight: "bold" }}>
 
-      <p>Your app is now LIVE</p>
+        TheScripto is Live 🚀
+
+      </h1>
+
+      <p style={{ marginTop: 20, fontSize: 18 }}>
+
+        Your app is successfully deployed on Vercel.
+
+      </p>
 
     </main>
 
